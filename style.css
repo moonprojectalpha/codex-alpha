@@ -1,0 +1,126 @@
+body{
+  margin:0;
+  font-family:Poppins, sans-serif;
+  background: linear-gradient(135deg,#ff9a9e,#fad0c4,#fbc2eb,#a6c1ee);
+  min-height:100vh;
+}
+
+
+/* HEADER */
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+}
+
+.glass{
+  background:rgba(255,255,255,0.25);
+  backdrop-filter:blur(12px);
+  box-shadow:0 8px 32px rgba(0,0,0,0.1);
+}
+
+nav a{
+  margin:0 10px;
+  text-decoration:none;
+  font-weight:600;
+  color:#333;
+}
+
+
+/* HERO */
+
+.hero{
+  text-align:center;
+  padding:120px 20px;
+}
+
+.btn{
+  background:linear-gradient(45deg,#ff6ec4,#7873f5);
+  padding:12px 25px;
+  border-radius:30px;
+  color:white;
+  text-decoration:none;
+}
+
+
+/* CATEGORY */
+
+.categories{
+  padding:40px;
+}
+
+.card-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+
+.card{
+  background:white;
+  border-radius:20px;
+  overflow:hidden;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+.card img{
+  width:100%;
+}
+
+
+/* GALLERY */
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  padding:40px;
+}
+
+.mockup img{
+  width:100%;
+  border-radius:15px;
+}
+
+
+/* SEARCH */
+
+.search-section{
+  text-align:center;
+  margin:30px;
+}
+
+.search-section input{
+  padding:12px 20px;
+  width:300px;
+  border-radius:30px;
+  border:none;
+}
+
+
+/* CUSTOMIZER */
+
+.customizer{
+  text-align:center;
+  padding:50px;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  border-radius:20px;
+  background:linear-gradient(45deg,#43e97b,#38f9d7);
+  color:white;
+  font-weight:600;
+  cursor:pointer;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+}
